@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [1.0.1] - 2021-02-24
+
+- Allows prefixed properties for `appearance`. `-moz-appearance` and `-webkit-appearance` are commonly used for button and select styling since they can't be auto-prefixed easily.
+
 ## [1.0.0] - 2021-01-27
 
 ### Added

@@ -113,7 +113,9 @@
     "number-no-trailing-zeros": true,
     "property-case": "lower",
     "property-no-unknown": true,
-    "property-no-vendor-prefix": true,
+    "property-no-vendor-prefix": [true, {
+      "ignoreProperties": ["appearance"]
+    }],
     "rule-empty-line-before": [
       "always-multi-line",
       {
