@@ -64,4 +64,22 @@ describe("eslint-config-apostrophe:utils", function() {
     const actual = utils.diff(a, b);
     assert.deepEqual(expected, actual);
   });
+
+  it("should find differerences in deeply nested complex rules and ignore spacing", function() {
+    const a = {
+      "declaration-empty-line-before": ["always",{"except":["after-declaration","first-nested"],"ignore":["after-comment","inside-single-line-block"]}]
+    };
+    const b = {
+      "declaration-empty-line-before": [ "always", { "except": [ "after-declaration" ], "ignore": [ "after-comment", "inside-single-line-block" ] } ]
+    };
+
+    const expected = new Map();
+    expected.set("declaration-empty-line-before", {
+      standard: ["always",{"except":["after-declaration","first-nested"],"ignore":["after-comment","inside-single-line-block"]}],
+      modified: ["always",{"except":["after-declaration"],"ignore":["after-comment","inside-single-line-block"]}]
+    });
+
+    const actual = utils.diff(a, b);
+    assert.deepEqual(expected, actual);
+  });
 });
