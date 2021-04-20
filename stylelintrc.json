@@ -70,13 +70,17 @@
       }
     ],
     "declaration-no-important": true,
-    "declaration-property-unit-allowed-list": {
-      "/^animation/": ["ms"],
-      "/^border/": ["px"],
-      "font-size": ["rem"],
-      "line-height": [],
-      "/^transition/": ["ms"]
-    },
+    "declaration-property-unit-allowed-list": [
+      {
+        "/^animation/": ["ms"],
+        "/^border/": ["px"],
+        "font-size": ["rem"],
+        "line-height": [],
+        "/^transition/": ["ms"]
+      }, {
+        "ignore": ["inside-function"]
+      }
+    ],
     "function-calc-no-invalid": true,
     "function-calc-no-unspaced-operator": true,
     "function-comma-newline-after": "always-multi-line",
