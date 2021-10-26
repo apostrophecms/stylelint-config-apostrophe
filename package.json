@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-apostrophe",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "stylelint configuration for apostrophe and related core modules",
   "main": "index.js",
   "scripts": {
@@ -34,7 +34,7 @@
     "eslint": "^7.32.0",
     "eslint-config-apostrophe": "^3.4.1",
     "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.1.0",
