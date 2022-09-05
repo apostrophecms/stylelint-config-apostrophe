@@ -19,6 +19,15 @@ This config also leverages the following plugins to fine tune our rules.
 npm i stylelint-config-apostrophe --save-dev
 ```
 
+## Package versions
+
+Choose the appropriate for your application `stylelint-config-apostrophe` version based on the `stylelint` dependency introduced on a project level:
+
+| Stylelint       | Apostrophe config |
+| :-------------- | ----------------: |
+| >= v13.8.x < 14 |            v1.x.x |
+| v14.x.x         |            v2.x.x |
+
 ## Usage
 
 If you've installed `stylelint-config-apostrophe` locally within your project, just set your `stylelint` config to:
