@@ -28,6 +28,8 @@ Choose the appropriate for your application `stylelint-config-apostrophe` versio
 | >= v13.8.x < 14 |            v1.x.x |
 | v14.x.x         |            v2.x.x |
 
+[Migrating to stylelint v14](https://stylelint.io/migration-guide/to-14/)
+
 ## Usage
 
 If you've installed `stylelint-config-apostrophe` locally within your project, just set your `stylelint` config to:
