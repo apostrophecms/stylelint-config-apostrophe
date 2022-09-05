@@ -81,7 +81,6 @@
         "ignore": ["inside-function"]
       }
     ],
-    "function-calc-no-invalid": true,
     "function-calc-no-unspaced-operator": true,
     "function-comma-newline-after": "always-multi-line",
     "function-comma-space-after": "always-single-line",
