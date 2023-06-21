@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-## [3.0.0] - 2023-XX-XX
+## [3.0.0] - 2023-06-21
 
 ### Changed
 
@@ -15,7 +15,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Removed
 
 - After upgrading to Stylelint 15, 76 rules that enforce stylistic conventions had been deprecated. They have been removed from the config.
-
 
 ## [2.0.0] - 2022-10-03
 
