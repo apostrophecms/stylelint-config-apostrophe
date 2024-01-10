@@ -1,11 +1,9 @@
 {
   "name": "stylelint-config-apostrophe",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "stylelint configuration for apostrophe and related core modules",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm run check",
-    "check": "node ./lib/checkUpdates",
     "compare": "node ./lib/index",
     "eslint": "npx eslint .",
     "stylelint": "npx stylelint 'test/*.scss' --custom-syntax postcss-scss --config .stylelintrc.json",
