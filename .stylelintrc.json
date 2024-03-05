@@ -145,7 +145,19 @@
         "ignoreValues": ["box", "inline-box"]
       }
     ],
-    "order/order": ["declarations", "rules", "at-rules"],
+    "order/order": [
+      {
+        "type": "at-rule",
+        "hasBlock": false
+      },
+      "dollar-variables",
+      "declarations",
+      "rules",
+      {
+        "type": "at-rule",
+        "name": "media"
+      }
+    ],
     "order/properties-order": [
       "z-index",
       "position",
