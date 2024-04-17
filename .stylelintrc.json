@@ -1,4 +1,5 @@
 {
+  "extends": ["stylelint-config-html/vue"],
   "plugins": [
     "stylelint-declaration-strict-value",
     "stylelint-order",
