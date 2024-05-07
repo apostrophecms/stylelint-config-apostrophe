@@ -226,7 +226,8 @@
           "initial",
           "transparent",
           "auto"
-        ]
+        ],
+        "disableFix": true
       }
     ],
     "scss/at-import-partial-extension": "never",
