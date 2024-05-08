@@ -27,6 +27,7 @@ Choose the appropriate for your application `stylelint-config-apostrophe` versio
 | :-------------- | ----------------: |
 | >= v13.8.x < 14 |            v1.x.x |
 | v14.x.x         |            v2.x.x |
+| v16.x.x         |            v2.x.x |
 
 [Migrating to stylelint v14](https://stylelint.io/migration-guide/to-14/)
 
