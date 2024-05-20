@@ -6,7 +6,7 @@
   "scripts": {
     "compare": "node ./lib/index",
     "eslint": "npx eslint .",
-    "stylelint": "npx stylelint 'test/*.scss' --custom-syntax postcss-scss --config .stylelintrc.json",
+    "stylelint": "npx stylelint 'test/*.scss' --config .stylelintrc.json",
     "test": "npx mocha"
   },
   "repository": {
