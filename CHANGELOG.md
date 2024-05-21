@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+### Added
+
+- Include `postcss-scss` to parse Scss files correctly
+
 ### Changed
 
 - Allows `%` unit for `border-radius`.

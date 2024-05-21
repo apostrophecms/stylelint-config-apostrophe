@@ -244,5 +244,11 @@
     ],
     "scss/dollar-variable-pattern": "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
     "scss/no-duplicate-mixins": true
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.scss", "**/*.scss"],
+      "customSyntax": "postcss-scss"
+    }
+  ]
 }
