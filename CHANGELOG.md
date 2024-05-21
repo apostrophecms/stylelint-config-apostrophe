@@ -10,6 +10,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Include `postcss-scss` to parse Scss files correctly
 
+### Changed
+
+- Allows `%` unit for `border-radius`.
+- Allows imports before `$` variables in blocks.
+
 ## 4.0.0 (2024-05-15)
 
 ### Fixed
