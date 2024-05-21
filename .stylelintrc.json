@@ -75,7 +75,8 @@
     "declaration-property-unit-allowed-list": [
       {
         "/^animation/": ["ms"],
-        "/^border/": ["px"],
+        "border": ["px"],
+        "border-radius": ["px", "%"],
         "font-size": ["rem"],
         "line-height": [],
         "/^transition/": ["ms"]
@@ -238,7 +239,7 @@
     "scss/dollar-variable-first-in-block": [
       true,
       {
-        "ignore": ["comments"]
+        "ignore": ["imports", "comments"]
       }
     ],
     "scss/dollar-variable-pattern": "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
