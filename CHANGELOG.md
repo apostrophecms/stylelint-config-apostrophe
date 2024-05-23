@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Allows `%` unit for `border-radius`.
 - Allows imports before `$` variables in blocks.
+- Allows `unset` for any property checked in `scale-unlimited/declaration-strict-value`
 
 ## 4.0.0 (2024-05-15)
 
