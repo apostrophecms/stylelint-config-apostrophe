@@ -226,7 +226,8 @@
           "inherit",
           "initial",
           "transparent",
-          "auto"
+          "auto",
+          "unset"
         ],
         "disableFix": true
       }
