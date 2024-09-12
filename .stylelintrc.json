@@ -232,7 +232,6 @@
         "disableFix": true
       }
     ],
-    "scss/at-import-partial-extension": "never",
     "scss/at-mixin-named-arguments": [
       "always",
       { "ignore": ["single-argument"] }
@@ -244,6 +243,7 @@
       }
     ],
     "scss/dollar-variable-pattern": "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
+    "scss/load-partial-extension": "never",
     "scss/no-duplicate-mixins": true
   },
   "overrides": [

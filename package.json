@@ -6,6 +6,8 @@
   "scripts": {
     "compare": "node ./lib/index",
     "eslint": "npx eslint .",
+    "lint": "npm run eslint && npm run stylelint",
+    "pretest": "npm run lint",
     "stylelint": "npx stylelint 'test/*.scss' --config .stylelintrc.json",
     "test": "npx mocha"
   },
@@ -33,7 +35,7 @@
     "eslint": "^8.39.0",
     "eslint-config-apostrophe": "^4.0.0",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-n": "^17.10.2",
     "eslint-plugin-promise": "^6.1.1",
     "mocha": "^10.2.0",
     "postcss-scss": "^4.0.9"

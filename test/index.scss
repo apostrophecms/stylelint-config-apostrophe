@@ -48,7 +48,7 @@ html {
   font-size: 1rem;
 }
 
-@media (min-width: 320px) {
+@media (320px < min-width) {
   .one {
     color: $grey;
   }
