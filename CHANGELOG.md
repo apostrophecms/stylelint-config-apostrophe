@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Changed
 
 * Replace deprecated `at-import-partial-extension` with `load-partial-extension`.
+* Add "custom/require-nested-after-include" rule to enforce the new Sass "Mixed Declarations" rule (see https://sass-lang.com/documentation/breaking-changes/mixed-decls/).
 
 ## 4.1.0 (2024-06-12)
 
