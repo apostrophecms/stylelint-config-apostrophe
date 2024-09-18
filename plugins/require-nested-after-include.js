@@ -11,15 +11,7 @@ module.exports = stylelint.createPlugin(ruleName, () => {
       rule.walkAtRules('include', (atRule) => {
         const nextNode = atRule.next();
 
-        if (
-          !nextNode ||
-          (nextNode.type === 'rule' && nextNode.selector.startsWith('& {')) ||
-          (nextNode.type === 'atrule')
-        ) {
-          return;
-        }
-
-        if (nextNode.type === 'decl') {
+        if (nextNode?.type === 'decl') {
           stylelint.utils.report({
             message: messages.expected,
             node: atRule,
