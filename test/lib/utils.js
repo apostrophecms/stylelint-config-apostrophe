@@ -1,5 +1,5 @@
 const assert = require('assert');
-const utils = require('../lib/utils');
+const utils = require('../../lib/utils');
 
 describe('eslint-config-apostrophe:utils', function() {
   it('should find missing rules', function() {
