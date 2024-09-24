@@ -8,8 +8,8 @@
     "eslint": "npx eslint .",
     "lint": "npm run eslint && npm run stylelint",
     "pretest": "npm run lint",
-    "stylelint": "npx stylelint 'test/*.scss' --config .stylelintrc.json",
-    "test": "npx mocha"
+    "stylelint": "npx stylelint 'test/lib/*.scss' --config .stylelintrc.json",
+    "test": "npx mocha './test/**/*.js'"
   },
   "repository": {
     "type": "git",
