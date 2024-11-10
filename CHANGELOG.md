@@ -4,6 +4,29 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## UNRELEASED
+
+### Fixed
+
+* Remove the following rule:
+```json
+"scale-unlimited/declaration-strict-value": [
+  ["/color/", "font", "font-family", "z-index"],
+  {
+    "ignoreKeywords": [
+      "currentColor",
+      "inherit",
+      "initial",
+      "transparent",
+      "auto",
+      "unset"
+    ],
+    "disableFix": true
+  }
+],
+```
+until this issue is resolved: https://github.com/AndyOGo/stylelint-declaration-strict-value/issues/379
+
 ## 4.2.0 (2024-09-24)
 
 ### Changed
