@@ -219,7 +219,20 @@
       "text-align",
       "transition"
     ],
-    "scale-unlimited/declaration-strict-value": null,
+    "scale-unlimited/declaration-strict-value": [
+      ["/color/", "font", "font-family", "z-index"],
+      {
+        "ignoreKeywords": [
+          "currentColor",
+          "inherit",
+          "initial",
+          "transparent",
+          "auto",
+          "unset"
+        ],
+        "disableFix": true
+      }
+    ],
     "scss/at-mixin-named-arguments": [
       "always",
       { "ignore": ["single-argument"] }

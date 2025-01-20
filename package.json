@@ -27,7 +27,7 @@
   "dependencies": {
     "stylelint-config-html": "^1.1.0",
     "stylelint-config-standard": "^36.0.0",
-    "stylelint-declaration-strict-value": "^1.10.4",
+    "stylelint-declaration-strict-value": "^1.10.7",
     "stylelint-order": "^6.0.4",
     "stylelint-scss": "^6.3.0"
   },

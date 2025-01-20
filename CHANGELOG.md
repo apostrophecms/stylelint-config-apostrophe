@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## UNRELEASED
+
+### Changed
+
+* Revert the removal of the `scale-unlimited/declaration-strict-value` rule that was added in 4.2.1. The deprecation warning has been [resolved in v1.10.7](https://github.com/AndyOGo/stylelint-declaration-strict-value/issues/379#issuecomment-2576107022) of the plugin.
+
 ## 4.2.1 (2024-12-18)
 
 ### Fixed
