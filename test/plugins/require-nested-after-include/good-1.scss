@@ -1,7 +1,0 @@
-.foo {
-  @include something();
-
-  & {
-    text-decoration: underline;
-  }
-}
