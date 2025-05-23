@@ -25,7 +25,7 @@
     "stylelint": ">= 16.1.0"
   },
   "dependencies": {
-    "@apostrophecms/require-nested-after-include": "^1.0.0",
+    "@apostrophecms/stylelint-no-mixed-decls": "^1.0.0",
     "stylelint-config-html": "^1.1.0",
     "stylelint-config-standard": "^36.0.0",
     "stylelint-declaration-strict-value": "^1.10.7",

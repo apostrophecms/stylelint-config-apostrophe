@@ -4,7 +4,7 @@
     "stylelint-declaration-strict-value",
     "stylelint-order",
     "stylelint-scss",
-    "@apostrophecms/require-nested-after-include"
+    "@apostrophecms/stylelint-no-mixed-decls"
   ],
   "ignoreFiles": ["node_modules/**/*", "**/node_modules/**/*"],
   "rules": {
@@ -246,7 +246,7 @@
     "scss/dollar-variable-pattern": "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
     "scss/load-partial-extension": "never",
     "scss/no-duplicate-mixins": true,
-    "@apostrophecms/require-nested-after-include": true
+    "@apostrophecms/stylelint-no-mixed-decls": true
   },
   "overrides": [
     {

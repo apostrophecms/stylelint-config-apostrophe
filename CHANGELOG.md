@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Changed
 
-* Use `@apostrophecms/require-nested-after-include` plugin as an external package.
+* Extract `custom/require-nested-after-include` rule to a standalone `@apostrophecms/stylelint-no-mixed-decls` plugin and use it.
 
 ## 4.2.2 (2025-01-27)
 
